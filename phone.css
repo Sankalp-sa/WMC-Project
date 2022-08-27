@@ -11,6 +11,10 @@
 }
 /* Home section */
 
+#home{
+    
+    height: 433px;
+}
 
 #home p{
     font-size: 13px;
@@ -43,7 +47,7 @@
 /* Service section */
 
 #services{
-    flex-direction: column;
+    grid-template-columns: 1fr;
 }
 
 /* Client section */
