@@ -11,16 +11,12 @@
 }
 /* Home section */
 
-#home{
-    
-    height: 433px;
-}
-#home::before{
-    height: 547px;
-}
-
 
 #home p{
+    font-size: 13px;
+}
+
+#home button{
     font-size: 13px;
 }
 

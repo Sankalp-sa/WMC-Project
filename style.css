@@ -7,7 +7,7 @@
 #navbar{
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
     /* top: 0; */
     width: 100%;
 }
@@ -35,6 +35,7 @@
     display: flex;
     list-style: none;
     font-size: 1.2rem;
+    margin-top: 19px;
 }
 
 #navbar ul li a{
@@ -54,19 +55,31 @@
 }
 
 /* Home section */
+
+
 #home{
     color: black;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;   
-     height: 499px;
-     padding: 56px 42px;
-     text-align: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    height: 512px;
+    /* padding: 56px 42px; */
+    text-align: left;
+
 }
 
+#home img{
+    position: relative;
+    top: 107px;
+}
 
-#home::before{
+/* #home2{
+    height: 616px;
+    margin-top: -74px;
+} */
+
+/* #home::before{
     content: "";
     position: absolute;
     background: url('img/bg1.jpg') no-repeat center center/cover;
@@ -74,15 +87,17 @@
     width: 100%;
     z-index: -1;
     opacity: 0.8;
-}
+} */
 
 #home p{
     font-size: 1.2rem;
+    margin-left: 17px;
+    color: #0288d1;
 }
 #home h1{
     margin-top: 90px;
-    color: black;
-    text-align: center;
+    color: #0288d1;
+    text-align: left;
 }
 
 /* About section */
@@ -96,7 +111,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 21px;
+    margin-top: 120px;
     text-align: center;
 }
 
