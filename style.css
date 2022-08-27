@@ -83,6 +83,45 @@
     text-align: center;
 }
 
+/* About section */
+
+#aboutH{
+    position: absolute;
+    text-align: center;
+    margin: 33px;
+    height: 23px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+#about::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 668px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+#about1{
+    padding: 15px;
+    padding-top: 88px;
+}
+#about1 img{
+    height: 537px;
+    width: 756px;
+}
+
+#p1{
+    margin: 23px;
+    padding-top: 88px;
+}
+#p2{
+    margin: 23px;
+}
 /* Services Section */
 
 #services{
