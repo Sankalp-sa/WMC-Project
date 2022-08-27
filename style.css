@@ -87,10 +87,9 @@
 
 /* About section */
 
-#abiutH{
+#aboutH{
     position: relative;
-    top: 104px;
-
+    top: 53px;
 }
 #about{
     display: flex;
@@ -102,18 +101,16 @@
 
 #about1{
     padding: 15px;
-    padding-top: 88px;
 }
 #about1 img{
-    height: 537px;
+    height: 567px;
     width: 756px;
 }
 
-#p1{
-    margin: 23px;
-}
-#p2{
-    margin: 23px;
+#about p{
+    margin-left: 81px;
+    margin-right: 81px;
+    padding: 12px;
 }
 /* Services Section */
 
@@ -126,7 +123,7 @@
     border: 2px solid black;
     padding: 23px;
     margin: 9px 11px;
-    background: #f1eeee;
+    background: white;
 }
 #services .box img{
     height: 170px;
