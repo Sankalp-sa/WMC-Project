@@ -23,6 +23,13 @@
 #home p{
     font-size: 13px;
 }
+
+/* About Section */
+
+#about1 img {
+    height: 210px;
+    width: 340px;
+}
 /* Service section */
 
 #services{
