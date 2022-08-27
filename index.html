@@ -7,6 +7,7 @@
     <title>Meals In Minutes</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" media="screen and (max-width: 1133px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="phone2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -61,7 +62,7 @@
           labore nulla nihil, at, perspiciatis blanditiis? Perferendis omnis
           officiis nisi eos deleniti accusantium.
         </p>
-        <p>
+        <p id="para">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
           quisquam et ex adipisci officiis corporis officia inventore tenetur
           quas in totam, nulla dolor ab dicta sint consequuntur hic nesciunt
@@ -71,8 +72,8 @@
           impedit quisquam! Aliquid eum vitae laudantium impedit neque eveniet,
           iure eos id consequuntur animi molestiae nisi, nostrum, possimus
           blanditiis amet vero quam quas ducimus reiciendis! Asperiores
-          repellendus dolor at, ratione pariatur quidem voluptate.
         </p>
+        <button id="btn" type="button" class="btn btn-secondary" onclick="toggleHide()">Hide/Show more About Us</button>
       </div>
     </section>
     <hr>
@@ -115,6 +116,70 @@
       </div>
     </section>
 
+    <hr>
+    <h1 class="h1-primary center">Our Members</h1>
+    <section id="members">
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem1Modify.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="mem">
+          <div class="card" style="width: 18rem;">
+            <img src="img/mem6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <section id="client-Section">
       <h1 class="h1-primary center">Our Clients</h1>
@@ -184,5 +249,21 @@
     <footer>
       <div>Copyright &copy; www.Meal.com In Minutes.com All right Reserved!</div>
     </footer>
+
+    <script>
+     function toggleHide(){
+
+      let btn = document.getElementById('btn');
+      let para = document.getElementById('para');
+      
+      if(para.style.display != 'none'){
+          para.style.display = 'none';
+      }
+      else{
+          para.style.display = 'block';
+      }
+     }
+
+  </script>
   </body>
 </html>

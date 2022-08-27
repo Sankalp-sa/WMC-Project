@@ -97,6 +97,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 21px;
+    text-align: center;
 }
 
 #about1{
@@ -112,7 +113,25 @@
     margin-right: 81px;
     padding: 12px;
 }
-/* Services Section */
+
+#btn{
+    position: relative;
+    bottom: 11px;
+}
+
+/* Members Section */
+
+#members{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    align-items: center;
+    justify-content: center;
+}
+.mem{
+    margin: auto;
+    padding-top: 20px;
+}
+/* Events Section */
 
 #services{
     display: flex;

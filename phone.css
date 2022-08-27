@@ -30,6 +30,20 @@
     height: 300px;
     width: 340px;
 }
+
+/* Member section */
+
+#members{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.mem{
+    margin: auto;
+    padding-top: 20px;
+}
+
 /* Service section */
 
 #services{

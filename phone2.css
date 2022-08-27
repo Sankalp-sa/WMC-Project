@@ -1,0 +1,10 @@
+#members{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.mem{
+    margin: auto;
+    padding-top: 20px;
+}
