@@ -4,9 +4,8 @@
     font-family: 'Oswald', sans-serif;
 }
 
-#website{
-    display: none;
-}
+/* #website{
+    /* display: none; } */
 
 /* Login Page */
 
@@ -140,11 +139,13 @@
 }
 
 /* Navigation Bar : List Styling */
+
+
 #navbar ul{
     display: flex;
     list-style: none;
     font-size: 1.2rem;
-    margin-top: 19px;
+    text-align: center;
 }
 
 #navbar ul li a{
@@ -312,6 +313,12 @@
 }
 
 /* Contact Section */
+
+.box-contact{
+    
+    display: flex;
+
+}
 
 #contact{
     position: relative;
