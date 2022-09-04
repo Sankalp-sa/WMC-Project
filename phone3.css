@@ -3,3 +3,49 @@
     margin-bottom: 5px;
     margin-left: 3px;
 }
+
+.boxA{
+    font-size: 13px;
+    font-size: 13px;
+    flex-direction: column;
+    height: 329px;
+    text-align: center;
+    justify-content: center;
+}
+
+.boxA-image2{
+    right: 0;
+
+}
+.boxA-image3{
+    right: 0;
+
+}
+.boxA-image4{
+    right: 0;
+
+}
+
+.BoxA-content1{
+    right: 0;
+
+}
+.BoxA-content2{
+    right: 0;
+
+}
+.BoxA-content3{
+    right: 0;
+}
+
+.BoxA-content{
+    margin-right: 0;
+}
+
+.boxA h4{
+    font-size: 23px;
+}
+#Abouve-contact {
+
+    /* scale: 0.8; */
+}
