@@ -1,0 +1,9 @@
+.Login-Container{
+
+    grid-template-columns: 1fr;
+    
+}
+
+.Login-Container::before{
+    width: 100%;
+}
