@@ -103,3 +103,33 @@ footer{
 .h1-primary{
     font-size: 41px;
 }
+
+/* faq */
+
+#faqMain {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 80%;
+    gap: 30px;
+    overflow-x: auto;
+    position: relative;
+    top: 60px;
+}
+
+#faq {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    margin: 54px 77px;
+    border-radius: 43px;
+    width: 100%;
+    padding: 0 2rem 2rem;
+}
+
+#faq1 {
+    margin: 0px 7px;
+    font-size: 13px;
+    position: relative;
+    top: 13px;
+}

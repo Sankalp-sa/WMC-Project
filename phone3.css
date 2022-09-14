@@ -49,3 +49,16 @@
 
     /* scale: 0.8; */
 }
+
+#faq2 {
+    scale: 0.5;
+    /* position: relative;
+    bottom: 222px; */
+}
+
+#faq1 {
+    margin: 0px 7px;
+    font-size: 10px;
+    position: relative;
+    top: 255px;
+}

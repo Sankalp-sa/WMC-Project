@@ -16,3 +16,33 @@
 #home p{
     font-size: 10px;
 }
+
+#faq {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 54px 49px;
+    border-radius: 43px;
+    width: 100%;
+    padding: 0 2rem 2rem;
+}
+#faq1 h1{
+    margin: 0px 7px;
+    font-size: 15px;
+    position: relative;
+    top: 13px;
+}
+
+#faq2 {
+    scale: 0.6;
+    position: relative;
+    bottom: 123px;
+}
+
+#faq1 {
+    margin: 0px 7px;
+    font-size: 13px;
+    position: relative;
+    top: 255px;
+}
