@@ -26,7 +26,6 @@
     <!-- <button type="button" class="btn btn-danger" onclick="ShowWebsite()" id="Loginbtn">Show website</button> -->
     <!-- login  -->
     
-
   <div id="website">
     <!-- Navbar -->
 
@@ -99,6 +98,31 @@
         <button id="btn" type="button" class="btn btn-danger" onclick="toggleHide()">Hide/Show more About Us</button>
       </div>
     </section>
+
+    <div id="why">
+      <div id="box1" class="shadow-lg">
+        <h1>Why Choose us ?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in accusantium, laboriosam fugiat consequatur sapiente tempore illum eaque soluta vel nisi. Natus ullam, tenetur consequuntur eius nam cumque animi placeat voluptate vel fugiat. Rerum.</p>
+      </div>
+      <div class="box2 shadow-lg" id="b2box1">
+        <div class="whyimg">
+          <img class="img-fluid" src="img/WhyImg1.png" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, soluta, ab ipsa amet consectetur itaque dolorem dicta nam odit, numquam ipsam beatae optio.</p>
+      </div>
+      <div class="box2 shadow-lg">
+        <div class="whyimg">
+          <img class="img-fluid" src="img/WhyImg2.png" alt="">
+        </div>
+        <p id="whyp2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, soluta, ab ipsa amet consectetur itaque dolorem dicta nam odit, numquam ipsam beatae optio.</p>
+      </div>
+      <div class="box2 shadow-lg">
+        <div class="whyimg">
+          <img class="img-fluid" src="img/WhyImg3.png" alt="">
+        </div>
+        <p id="whyp3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, soluta, ab ipsa amet consectetur itaque dolorem dicta nam odit, numquam ipsam beatae optio.</p>
+      </div>
+    </div>
     <hr>
 
     <!-- Events -->
@@ -330,45 +354,10 @@
 
   </div>  
 
-    <script>
-      
-     function toggleHide(){
+    <script src="user.js"></script>
+    
 
-      let btn = document.getElementById('btn');
-      let para = document.getElementById('para');
-      
-      if(para.style.display != 'none'){
-          para.style.display = 'none';
-      }
-      else{
-          para.style.display = 'block';
-      }
-     }
-
-     function ShowWebsite(){
-        let website = document.getElementById('website');
-        let LoginPage = document.getElementById('LoginPage');
-          
-          website.style.display = 'block';
-          LoginPage.style.display = 'none';
-
-     }
-
-      var x = document.getElementById("login");
-      var y = document.getElementById("register");
-      var z = document.getElementById("btn");
-
-      function register(){
-          x.style.left = "-400px";
-          y.style.left = "50px";
-          z.style.left = "110px";
-
-      }
-      function login(){
-          x.style.left = "50px";
-          y.style.left = "450px";
-          z.style.left = "0px";
-      }
+     
 
 
 

@@ -53,9 +53,10 @@
                         class="input-group1"
                         action=""
                         method="get"
+                        name="formcalc"
                       >
                         <input
-                          
+                          id="LoginUser"
                           type="text"
                           name="username1"
                           class="input-field"
@@ -70,7 +71,7 @@
                           placeholder="Password"
                           required
                         />
-                        <button type="submit" class="Submit-btn1 btn btn-danger"><a href="https://sankalp-sa.github.io/WMC-Project/">Login</a></button>
+                        <button type="submit" id = "loginBtn" class="Submit-btn1 btn btn-danger" onclick="ShowUserId()">Login</button>
                         <p>If you are new please go to register page</p>
                       </form>
                       <form
@@ -135,29 +136,6 @@
             </div>
         </div>
     
-    <script>
-      var x = document.getElementById("login");
-      var y = document.getElementById("register");
-      var z = document.getElementById("btn");
-
-      let log = document.getElementById("log");
-      let reg = document.getElementById("reg");
-
-      function register() {
-        x.style.left = "-300px";
-        y.style.left = "50px";
-        z.style.left = "110px";
-        reg.style.color = "white"
-        log.style.color = "#01579b"
-      }
-      function login() {
-        x.style.left = "44px";
-        y.style.left = "450px";
-        z.style.left = "0px";
-        log.style.color = "white"
-        reg.style.color = "#01579b"
-      }
-
-    </script>
+    <script src="user.js"></script>
   </body>
 </html>

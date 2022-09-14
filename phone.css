@@ -9,11 +9,28 @@
     font-size: 1rem;
     margin-bottom: 5px;
 }
+
+#navbar::before{
+    content: "";
+    background-color: #01579b;
+    position: absolute;
+    height: 69%;
+    width: 100%;
+    z-index: -1;
+}
+
+#logo{
+        
+    margin: 0px 35px;
+    padding: 9px;
+    color: white;
+}
+
 /* Home section */
 
 #home{
     
-    height: 433px;
+    height: 265px;
 }
 
 #home p{
@@ -29,6 +46,25 @@
 #about1 img {
     height: 300px;
     width: 340px;
+}
+
+#why{
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#box1 {
+    padding: 26px;
+    height: 456px;
+    margin: 0px 25px;
+}
+
+#b2box1{
+    margin-top: 47px;
+}
+
+.box2{
+    margin: 32px 58px;
 }
 
 /* Member section */

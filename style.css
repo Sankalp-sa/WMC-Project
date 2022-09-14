@@ -183,7 +183,7 @@ span{
     content: "";
     background-color: #01579b;
     position: absolute;
-    height: 100%    ;
+    height: 100%;
     width: 100%;
     z-index: -1;
 }
@@ -239,6 +239,7 @@ span{
 
 }
 
+
 #home img{
     position: relative;
     top: 107px;
@@ -275,6 +276,55 @@ span{
 
 /* About section */
 
+#why{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    margin: 20px;
+    margin-top: 61px;
+    margin-bottom: 61px; 
+    justify-content: center;  
+}
+.whyimg{
+
+    scale: 0.6;
+}
+
+#whyp2{
+    
+    position: relative;
+    top: 13px;
+}
+#whyp3{
+    position: relative;
+    bottom: 21px;
+}
+
+#box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 13px;
+    border-radius: 33px;
+    background-color: #01579b;
+    color: white;
+}
+#box1 p{
+    margin: 23px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 13px;
+    border-radius: 33px;
+
+}
+.box2 p{
+    margin: 23px;
+}
+
 #aboutH{
     position: relative;
     top: 53px;
@@ -304,6 +354,7 @@ span{
 #btn{
     position: relative;
     bottom: 11px;
+    font-size: 12px;
 }
 
 /* Members Section */
