@@ -39,6 +39,7 @@
         <li class="item"><a href="#scrollspyHeading3">Events</a></li>
         <li class="item"><a href="#scrollspyHeading4">Members</a></li>
         <li class="item"><a href="#scrollspyHeading5">Contact Us</a></li>
+        <li id="user-name"></li>
       </ul>
     </nav>
 
@@ -387,7 +388,17 @@
 
   </div>  
 
-    <script src="user.js"></script>
-  </script>
+    <script>
+        function toggleHide() {
+        let btn = document.getElementById("btn");
+        let para = document.getElementById("para");
+
+        if (para.style.display != "none") {
+          para.style.display = "none";
+        } else {
+          para.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

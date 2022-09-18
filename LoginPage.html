@@ -7,8 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="LoginpageStyle.css" />
     <link rel="stylesheet" href="jimi.js" />
-    <link rel="stylesheet" media="screen and (max-width: 1416px)" href="logPhone.css">
-    <link rel="stylesheet" media="screen and (max-width: 882px)" href="logPhone1.css">
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1416px)"
+      href="logPhone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 882px)"
+      href="logPhone1.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -21,129 +29,207 @@
       href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-        <div class="Login-Container">
-            <div class="LoginTitle">
-                <h1>Login to P-Club</h1>
-                <p>Amazing things waiting for you</p>
-              </div>
-            <div class="Main-Login">
-                <div class="hero">
-                    <div class="form-box shadow-lg">
-                      <div class="button-box shadow">
-                        <div id="btn"></div>
-                        <button type="button" class="toggle-btn" id="log" onclick="login()">
-                          Login
-                        </button>
-                        <button type="button" class="toggle-btn" id="reg" onclick="register()">
-                          Register
-                        </button>
-                      </div>
-              
-                      <form
-                        id="login"
-                        class="input-group1"
-                        action=""
-                        method="get"
-                        name="formcalc"
-                      >
-                        <input
-                          id="LoginUser"
-                          type="text"
-                          name="username1"
-                          class="input-field"
-                          placeholder="User Id"
-                          required
-                        />
-                        <input
-                          type="password"
-                          name="password2"
-                          class="input-field"
-                          placeholder="Password"
-                          required
-                        />
-                        <button type="submit" id = "loginBtn" class="Submit-btn1 btn btn-danger" onclick="ShowUserId()">Login</button>
-                        <p>If you are new please go to register page</p>
-                      </form>
-                      <form
-                        id="register"
-                        action=""
-                        method="get"
-                        class="input-group2"
-                      >
-                        <input
-                          id="userId"
-                          type="text"
-                          name="username"
-                          class="input-field"
-                          placeholder="User Id"
-                        />
-                        <div class="error"></div> 
-
-                        <input
-                          type="text"
-                          name="FirstName"
-                          class="input-field"
-                          placeholder="First Name"
-                          required
-                        />
-
-                        <input
-                          type="text"
-                          name="LastName"
-                          class="input-field"
-                          placeholder="last Name"
-                          required
-                        />
-
-                        <input
-                          id="email-input"
-                          type="email"
-                          name="eamil"
-                          class="input-field"
-                          placeholder="Email-Id"
-                          required
-                        />
-                        <div class="error"></div>
-
-                        <input
-                          type="password"
-                          id="pass"
-                          name="Password"
-                          class="input-field"
-                          placeholder="Password"
-                          required
-                        /> 
-                        <div class="error"></div>
-
-                        <input
-                          type="password"
-                          id="conpass"
-                          name="ConfirmPassword"
-                          class="input-field"
-                          placeholder="Conform Password"
-                          required
-                        />
-                        <div class="error"></div>
-                        
-                        <input type="checkbox" class="check-box" required/><span id="term"
-                          >I agree to terms and conditions</span
-                        > 
-                        <button type="submit" class="Submit-btn2 btn btn-danger">Register</button>
-                      </form>
-                    </div>
-                  </div>
+    <div class="Login-Container">
+      <div class="LoginTitle">
+        <h1>Login to P-Club</h1>
+        <p>Amazing things waiting for you</p>
+      </div>
+      <div class="Main-Login">
+        <div class="hero">
+          <div class="form-box shadow-lg">
+            <div class="button-box shadow">
+              <div id="btn"></div>
+              <button
+                type="button"
+                class="toggle-btn"
+                id="log"
+                onclick="login()"
+              >
+                Login
+              </button>
+              <button
+                type="button"
+                class="toggle-btn"
+                id="reg"
+                onclick="register()"
+              >
+                Register
+              </button>
             </div>
+
+            <form
+              id="login"
+              class="input-group1"
+              action=""
+              method="get"
+              name="formcalc"
+            >
+              <input
+                id="LoginUser"
+                type="text"
+                name="username1"
+                class="input-field"
+                placeholder="User Id"
+                required
+              />
+              <input
+                type="password"
+                name="password2"
+                class="input-field"
+                placeholder="Password"
+                required
+              />
+              <button
+                type="submit"
+                id="loginBtn"
+                class="Submit-btn1 btn btn-danger"
+                onclick="ShowUserId()"
+              >
+                Login
+              </button>
+              <p>If you are new please go to register page</p>
+            </form>
+            <form id="register" action="" method="get" class="input-group2">
+              <input
+                id="userId"
+                type="text"
+                name="username"
+                class="input-field"
+                placeholder="User Id"
+              />
+              <div class="error"></div>
+
+              <input
+                type="text"
+                name="FirstName"
+                class="input-field"
+                placeholder="First Name"
+                required
+              />
+
+              <input
+                type="text"
+                name="LastName"
+                class="input-field"
+                placeholder="last Name"
+                required
+              />
+
+              <input
+                id="email-input"
+                type="email"
+                name="eamil"
+                class="input-field"
+                placeholder="Email-Id"
+                required
+              />
+              <div class="error"></div>
+
+              <input
+                type="password"
+                id="pass"
+                name="Password"
+                class="input-field"
+                placeholder="Password"
+                required
+              />
+              <div class="error"></div>
+
+              <input
+                type="password"
+                id="conpass"
+                name="ConfirmPassword"
+                class="input-field"
+                placeholder="Conform Password"
+                required
+              />
+              <div class="error"></div>
+
+              <input type="checkbox" class="check-box" required /><span
+                id="term"
+                >I agree to terms and conditions</span
+              >
+              <button type="submit" class="Submit-btn2 btn btn-danger">
+                Register
+              </button>
+            </form>
+          </div>
         </div>
-    
-    <script src="user.js"></script>
+      </div>
+    </div>
+
+    <script>
+      var x = document.getElementById("login");
+      var y = document.getElementById("register");
+      var z = document.getElementById("btn");
+
+      let log = document.getElementById("log");
+      let reg = document.getElementById("reg");
+
+      function register() {
+        x.style.left = "-300px";
+        y.style.left = "50px";
+        z.style.left = "110px";
+        reg.style.color = "white";
+        log.style.color = "#01579b";
+      }
+      function login() {
+        x.style.left = "44px";
+        y.style.left = "450px";
+        z.style.left = "0px";
+        log.style.color = "white";
+        reg.style.color = "#01579b";
+      }
+
+      var form = document.getElementById("register");
+      var error = document.getElementsByClassName("error");
+      var userName = document.getElementById("userId");
+      var emailInput = document.getElementById("email-input");
+      var pass = document.getElementById("pass");
+      var conpass = document.getElementById("conpass");
+
+      form.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (userName.value.length < 6) {
+          error[0].innerHTML =
+            "*Username should have greater then 6 characters";
+        } else {
+          error[0].innerHTML = "";
+        }
+
+        if (pass.value.length < 6) {
+          error[2].innerHTML =
+            "*password should have greater then 6 characters";
+        } else {
+          error[2].innerHTML = "";
+        }
+
+        if (emailInput.value.includes("@ahduni.edu.in") === false) {
+          error[1].innerHTML = "*Should be an Ahmedabad University E-mail";
+        } else {
+          error[1].innerHTML = "";
+        }
+
+        if (conpass.value != pass.value) {
+          error[3].innerHTML = "*Confirm password inequal to password";
+        } else {
+          error[3].innerHTML = "";
+        }
+      });
+    </script>
   </body>
 </html>
