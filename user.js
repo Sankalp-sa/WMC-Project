@@ -1,12 +1,3 @@
-function ShowUserId() {
-  let LoginUser = document.getElementById('LoginUser');
-  let indexUser = document.getElementById('indexUser');
-  indexUser.style.color = 'white';
-}
-
-document.getElementById("loginBtn").onclick = function () {
-  ShowUserId();
-};
 
 var x = document.getElementById("login");
 var y = document.getElementById("register");
@@ -40,3 +31,41 @@ function toggleHide() {
     para.style.display = "block";
   }
 }
+
+var form = document.getElementById('register');
+var error = document.getElementsByClassName('error');
+var userName = document.getElementById("userId");
+var emailInput = document.getElementById("email-input");
+var pass = document.getElementById("pass");
+var conpass = document.getElementById("conpass");
+
+form.addEventListener('submit',(e)=>{
+  e.preventDefault();
+  if(userName.value.length < 6){
+    error[0].innerHTML = "*Username should have greater then 6 characters";
+  }else{
+    error[0].innerHTML = "";
+  }
+
+  if(pass.value.length < 6){
+    error[2].innerHTML = "*password should have greater then 6 characters";
+  }else{
+    error[2].innerHTML = "";
+  }
+
+  if(emailInput.value.includes("@ahduni.edu.in") === false){
+    error[1].innerHTML = "*Should be an Ahmedabad University E-mail";
+  }
+  else{
+    error[1].innerHTML = "";
+  }
+
+  if(conpass.value != pass.value){
+    error[3].innerHTML = "Confirm password inequal to password";
+  }
+  else{
+    error[3].innerHTML = "";
+  }
+
+})
+

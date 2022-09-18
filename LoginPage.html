@@ -64,7 +64,6 @@
                           required
                         />
                         <input
-                          
                           type="password"
                           name="password2"
                           class="input-field"
@@ -81,21 +80,22 @@
                         class="input-group2"
                       >
                         <input
-                        
+                          id="userId"
                           type="text"
                           name="username"
                           class="input-field"
                           placeholder="User Id"
-                          required
                         />
+                        <div class="error"></div> 
+
                         <input
-                          
                           type="text"
                           name="FirstName"
                           class="input-field"
                           placeholder="First Name"
                           required
                         />
+
                         <input
                           type="text"
                           name="LastName"
@@ -103,13 +103,17 @@
                           placeholder="last Name"
                           required
                         />
+
                         <input
+                          id="email-input"
                           type="email"
                           name="eamil"
                           class="input-field"
                           placeholder="Email-Id"
                           required
                         />
+                        <div class="error"></div>
+
                         <input
                           type="password"
                           id="pass"
@@ -117,7 +121,9 @@
                           class="input-field"
                           placeholder="Password"
                           required
-                        />
+                        /> 
+                        <div class="error"></div>
+
                         <input
                           type="password"
                           id="conpass"
@@ -126,9 +132,11 @@
                           placeholder="Conform Password"
                           required
                         />
-                        <input type="checkbox" class="check-box" required/><span
+                        <div class="error"></div>
+                        
+                        <input type="checkbox" class="check-box" required/><span id="term"
                           >I agree to terms and conditions</span
-                        >
+                        > 
                         <button type="submit" class="Submit-btn2 btn btn-danger">Register</button>
                       </form>
                     </div>
